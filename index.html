@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nalanda- Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Nalanda</div>
+        <div class="nav-links">
+            <a href="#courses">Courses</a>
+            <a href="#categories">Categories</a>
+            <a href="#instructors">Instructors</a>
+            <div class="user-menu">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn">☰</button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content slide-in">
+            <span class="badge">Featured Courses</span>
+            <h1>Learn from Industry Experts</h1>
+            <p>Discover courses in design, development, business, and more. Start learning at your own pace.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search for courses...">
+                <button class="btn-primary">Search</button>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>500+</span>
+                    <p>Courses</p>
+                </div>
+                <div class="stat-item">
+                    <span>50k+</span>
+                    <p>Students</p>
+                </div>
+                <div class="stat-item">
+                    <span>100+</span>
+                    <p>Instructors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-icon">💻</div>
+                <h3>Web Development</h3>
+                <p>150 Courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🎨</div>
+                <h3>Design</h3>
+                <p>120 Courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">📊</div>
+                <h3>Business</h3>
+                <p>200 Courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">📱</div>
+                <h3>Mobile Dev</h3>
+                <p>80 Courses</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="section-header">
+            <h2>Featured Courses</h2>
+            <div class="course-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Popular</button>
+                <button class="filter-btn">New</button>
+            </div>
+        </div>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="course-image">
+                    <span class="course-badge">Bestseller</span>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Web Development">
+                </div>
+                <div class="course-content">
+                    <div class="course-info">
+                        <span class="course-category">Development</span>
+                        <span class="course-rating">⭐ 4.8</span>
+                    </div>
+                    <h3>Complete Web Development Bootcamp</h3>
+                    <p>Learn web development from scratch to advanced concepts</p>
+                    <div class="course-meta">
+                        <span>20 hours</span>
+                        <span>•</span>
+                        <span>150 lessons</span>
+                    </div>
+                    <div class="course-footer">
+                        <span class="price">$89.99</span>
+                        <button class="btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5" alt="UI Design">
+                </div>
+                <div class="course-content">
+                    <div class="course-info">
+                        <span class="course-category">Design</span>
+                        <span class="course-rating">⭐ 4.9</span>
+                    </div>
+                    <h3>UI/UX Design Masterclass</h3>
+                    <p>Master the principles of modern UI/UX design</p>
+                    <div class="course-meta">
+                        <span>15 hours</span>
+                        <span>•</span>
+                        <span>120 lessons</span>
+                    </div>
+                    <div class="course-footer">
+                        <span class="price">$79.99</span>
+                        <button class="btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-image">
+                    <span class="course-badge">New</span>
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Business">
+                </div>
+                <div class="course-content">
+                    <div class="course-info">
+                        <span class="course-category">Business</span>
+                        <span class="course-rating">⭐ 4.7</span>
+                    </div>
+                    <h3>Digital Marketing Strategy</h3>
+                    <p>Learn to create effective marketing campaigns</p>
+                    <div class="course-meta">
+                        <span>18 hours</span>
+                        <span>•</span>
+                        <span>130 lessons</span>
+                    </div>
+                    <div class="course-footer">
+                        <span class="price">$69.99</span>
+                        <button class="btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors" class="instructors">
+        <h2>Top Instructors</h2>
+        <div class="instructor-grid">
+            <div class="instructor-card">
+                <div class="instructor-image">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Instructor">
+                </div>
+                <h3>RONOROA ZORO</h3>
+                <p>Web Development</p>
+                <div class="instructor-stats">
+                    <div class="stat">
+                        <span>15k+</span>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat">
+                        <span>12</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instructor-card">
+                <div class="instructor-image">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e" alt="Instructor">
+                </div>
+                <h3>VINSMOKE SANJI</h3>
+                <p>UI/UX Design</p>
+                <div class="instructor-stats">
+                    <div class="stat">
+                        <span>20k+</span>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat">
+                        <span>8</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instructor-card">
+                <div class="instructor-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" alt="Instructor">
+                </div>
+                <h3>ROBIN</h3>
+                <p>Digital Marketing</p>
+                <div class="instructor-stats">
+                    <div class="stat">
+                        <span>18k+</span>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat">
+                        <span>10</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Start Learning Today</h2>
+            <p>Join thousands of students already learning on NALANDA</p>
+            <button class="btn-primary pulse">Get Started Free</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>NALANDA</h4>
+                <p>Empowering learners worldwide with quality education.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <a href="#courses">Courses</a>
+                <a href="#categories">Categories</a>
+                <a href="#instructors">Instructors</a>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Career Guide</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>support@Nalanda.com</p>
+                <p>1-800-EDU-FLOW</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2024 NALANDA. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
